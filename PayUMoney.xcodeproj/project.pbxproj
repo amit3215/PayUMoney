@@ -13,6 +13,18 @@
 		B2193DC31CCF95360066DB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2193DC11CCF95360066DB98 /* Main.storyboard */; };
 		B2193DC51CCF95360066DB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2193DC41CCF95360066DB98 /* Assets.xcassets */; };
 		B2193DC81CCF95360066DB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2193DC61CCF95360066DB98 /* LaunchScreen.storyboard */; };
+		B2193DD31CCF995C0066DB98 /* TRWebServiceManger.m in Sources */ = {isa = PBXBuildFile; fileRef = B2193DD01CCF995C0066DB98 /* TRWebServiceManger.m */; };
+		B2193DD41CCF995C0066DB98 /* Utiity.m in Sources */ = {isa = PBXBuildFile; fileRef = B2193DD21CCF995C0066DB98 /* Utiity.m */; };
+		B28957D61CF4CF5C0008B410 /* LNChoosePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957C61CF4CF5C0008B410 /* LNChoosePlanViewController.m */; };
+		B28957D71CF4CF5C0008B410 /* LNCoachListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957C81CF4CF5C0008B410 /* LNCoachListViewController.m */; };
+		B28957D81CF4CF5C0008B410 /* LNDietician.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957CA1CF4CF5C0008B410 /* LNDietician.m */; };
+		B28957D91CF4CF5C0008B410 /* LNPackageFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957CC1CF4CF5C0008B410 /* LNPackageFeature.m */; };
+		B28957DA1CF4CF5C0008B410 /* LNPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957CE1CF4CF5C0008B410 /* LNPlan.m */; };
+		B28957DB1CF4CF5C0008B410 /* LNPlanCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957D01CF4CF5C0008B410 /* LNPlanCellTableViewCell.m */; };
+		B28957DC1CF4CF5C0008B410 /* LNPlanCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28957D11CF4CF5C0008B410 /* LNPlanCellTableViewCell.xib */; };
+		B28957DD1CF4CF5C0008B410 /* LNPlanFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957D31CF4CF5C0008B410 /* LNPlanFeature.m */; };
+		B28957DE1CF4CF5C0008B410 /* LNPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28957D51CF4CF5C0008B410 /* LNPlanViewController.m */; };
+		B2BE2C801CD4ED680019EEC7 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE2C7F1CD4ED680019EEC7 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,29 @@
 		B2193DC41CCF95360066DB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2193DC71CCF95360066DB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2193DC91CCF95360066DB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2193DCF1CCF995C0066DB98 /* TRWebServiceManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebServiceManger.h; sourceTree = "<group>"; };
+		B2193DD01CCF995C0066DB98 /* TRWebServiceManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWebServiceManger.m; sourceTree = "<group>"; };
+		B2193DD11CCF995C0066DB98 /* Utiity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utiity.h; sourceTree = "<group>"; };
+		B2193DD21CCF995C0066DB98 /* Utiity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utiity.m; sourceTree = "<group>"; };
+		B28957C51CF4CF5C0008B410 /* LNChoosePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNChoosePlanViewController.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNChoosePlanViewController.h; sourceTree = "<group>"; };
+		B28957C61CF4CF5C0008B410 /* LNChoosePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNChoosePlanViewController.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNChoosePlanViewController.m; sourceTree = "<group>"; };
+		B28957C71CF4CF5C0008B410 /* LNCoachListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNCoachListViewController.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNCoachListViewController.h; sourceTree = "<group>"; };
+		B28957C81CF4CF5C0008B410 /* LNCoachListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNCoachListViewController.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNCoachListViewController.m; sourceTree = "<group>"; };
+		B28957C91CF4CF5C0008B410 /* LNDietician.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNDietician.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNDietician.h; sourceTree = "<group>"; };
+		B28957CA1CF4CF5C0008B410 /* LNDietician.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNDietician.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNDietician.m; sourceTree = "<group>"; };
+		B28957CB1CF4CF5C0008B410 /* LNPackageFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPackageFeature.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPackageFeature.h; sourceTree = "<group>"; };
+		B28957CC1CF4CF5C0008B410 /* LNPackageFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPackageFeature.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPackageFeature.m; sourceTree = "<group>"; };
+		B28957CD1CF4CF5C0008B410 /* LNPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPlan.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlan.h; sourceTree = "<group>"; };
+		B28957CE1CF4CF5C0008B410 /* LNPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPlan.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlan.m; sourceTree = "<group>"; };
+		B28957CF1CF4CF5C0008B410 /* LNPlanCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPlanCellTableViewCell.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanCellTableViewCell.h; sourceTree = "<group>"; };
+		B28957D01CF4CF5C0008B410 /* LNPlanCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPlanCellTableViewCell.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanCellTableViewCell.m; sourceTree = "<group>"; };
+		B28957D11CF4CF5C0008B410 /* LNPlanCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LNPlanCellTableViewCell.xib; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanCellTableViewCell.xib; sourceTree = "<group>"; };
+		B28957D21CF4CF5C0008B410 /* LNPlanFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPlanFeature.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanFeature.h; sourceTree = "<group>"; };
+		B28957D31CF4CF5C0008B410 /* LNPlanFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPlanFeature.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanFeature.m; sourceTree = "<group>"; };
+		B28957D41CF4CF5C0008B410 /* LNPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPlanViewController.h; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanViewController.h; sourceTree = "<group>"; };
+		B28957D51CF4CF5C0008B410 /* LNPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPlanViewController.m; path = ../../../../amitkumar/Desktop/PayUMoney/PayUMoney/LNPlanViewController.m; sourceTree = "<group>"; };
+		B2BE2C7E1CD4ED680019EEC7 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		B2BE2C7F1CD4ED680019EEC7 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +93,11 @@
 		B2193DB71CCF95360066DB98 /* PayUMoney */ = {
 			isa = PBXGroup;
 			children = (
-				B2193DBB1CCF95360066DB98 /* AppDelegate.h */,
-				B2193DBC1CCF95360066DB98 /* AppDelegate.m */,
-				B2193DBE1CCF95360066DB98 /* ViewController.h */,
-				B2193DBF1CCF95360066DB98 /* ViewController.m */,
-				B2193DC11CCF95360066DB98 /* Main.storyboard */,
-				B2193DC41CCF95360066DB98 /* Assets.xcassets */,
-				B2193DC61CCF95360066DB98 /* LaunchScreen.storyboard */,
-				B2193DC91CCF95360066DB98 /* Info.plist */,
+				B23080151CD1156100D96A8A /* PaymentGateWay */,
+				B2193DDD1CCFD42B0066DB98 /* View */,
+				B2193DDC1CCFD4190066DB98 /* Controllers */,
+				B2193DDB1CCFD4050066DB98 /* Modals */,
+				B2193DD51CCF99670066DB98 /* ConnectionManager */,
 				B2193DB81CCF95360066DB98 /* Supporting Files */,
 			);
 			path = PayUMoney;
@@ -74,9 +106,75 @@
 		B2193DB81CCF95360066DB98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2193DBB1CCF95360066DB98 /* AppDelegate.h */,
+				B2193DBC1CCF95360066DB98 /* AppDelegate.m */,
+				B2193DC91CCF95360066DB98 /* Info.plist */,
 				B2193DB91CCF95360066DB98 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2193DD51CCF99670066DB98 /* ConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2193DCF1CCF995C0066DB98 /* TRWebServiceManger.h */,
+				B2193DD01CCF995C0066DB98 /* TRWebServiceManger.m */,
+				B2193DD11CCF995C0066DB98 /* Utiity.h */,
+				B2193DD21CCF995C0066DB98 /* Utiity.m */,
+			);
+			name = ConnectionManager;
+			sourceTree = "<group>";
+		};
+		B2193DDB1CCFD4050066DB98 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
+		B2193DDC1CCFD4190066DB98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2193DBE1CCF95360066DB98 /* ViewController.h */,
+				B2193DBF1CCF95360066DB98 /* ViewController.m */,
+				B2BE2C7E1CD4ED680019EEC7 /* PageContentViewController.h */,
+				B2BE2C7F1CD4ED680019EEC7 /* PageContentViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B2193DDD1CCFD42B0066DB98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2193DC11CCF95360066DB98 /* Main.storyboard */,
+				B2193DC41CCF95360066DB98 /* Assets.xcassets */,
+				B2193DC61CCF95360066DB98 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B23080151CD1156100D96A8A /* PaymentGateWay */ = {
+			isa = PBXGroup;
+			children = (
+				B28957C51CF4CF5C0008B410 /* LNChoosePlanViewController.h */,
+				B28957C61CF4CF5C0008B410 /* LNChoosePlanViewController.m */,
+				B28957C71CF4CF5C0008B410 /* LNCoachListViewController.h */,
+				B28957C81CF4CF5C0008B410 /* LNCoachListViewController.m */,
+				B28957C91CF4CF5C0008B410 /* LNDietician.h */,
+				B28957CA1CF4CF5C0008B410 /* LNDietician.m */,
+				B28957CB1CF4CF5C0008B410 /* LNPackageFeature.h */,
+				B28957CC1CF4CF5C0008B410 /* LNPackageFeature.m */,
+				B28957CD1CF4CF5C0008B410 /* LNPlan.h */,
+				B28957CE1CF4CF5C0008B410 /* LNPlan.m */,
+				B28957CF1CF4CF5C0008B410 /* LNPlanCellTableViewCell.h */,
+				B28957D01CF4CF5C0008B410 /* LNPlanCellTableViewCell.m */,
+				B28957D11CF4CF5C0008B410 /* LNPlanCellTableViewCell.xib */,
+				B28957D21CF4CF5C0008B410 /* LNPlanFeature.h */,
+				B28957D31CF4CF5C0008B410 /* LNPlanFeature.m */,
+				B28957D41CF4CF5C0008B410 /* LNPlanViewController.h */,
+				B28957D51CF4CF5C0008B410 /* LNPlanViewController.m */,
+			);
+			name = PaymentGateWay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +236,7 @@
 			files = (
 				B2193DC81CCF95360066DB98 /* LaunchScreen.storyboard in Resources */,
 				B2193DC51CCF95360066DB98 /* Assets.xcassets in Resources */,
+				B28957DC1CF4CF5C0008B410 /* LNPlanCellTableViewCell.xib in Resources */,
 				B2193DC31CCF95360066DB98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +248,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28957DB1CF4CF5C0008B410 /* LNPlanCellTableViewCell.m in Sources */,
+				B28957DD1CF4CF5C0008B410 /* LNPlanFeature.m in Sources */,
+				B2BE2C801CD4ED680019EEC7 /* PageContentViewController.m in Sources */,
+				B28957D91CF4CF5C0008B410 /* LNPackageFeature.m in Sources */,
+				B28957D81CF4CF5C0008B410 /* LNDietician.m in Sources */,
+				B2193DD41CCF995C0066DB98 /* Utiity.m in Sources */,
 				B2193DC01CCF95360066DB98 /* ViewController.m in Sources */,
 				B2193DBD1CCF95360066DB98 /* AppDelegate.m in Sources */,
+				B2193DD31CCF995C0066DB98 /* TRWebServiceManger.m in Sources */,
 				B2193DBA1CCF95360066DB98 /* main.m in Sources */,
+				B28957DA1CF4CF5C0008B410 /* LNPlan.m in Sources */,
+				B28957D61CF4CF5C0008B410 /* LNChoosePlanViewController.m in Sources */,
+				B28957DE1CF4CF5C0008B410 /* LNPlanViewController.m in Sources */,
+				B28957D71CF4CF5C0008B410 /* LNCoachListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayUMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.payment.test.PayUMoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayUMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.payment.test.PayUMoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +412,7 @@
 				B2193DCE1CCF95360066DB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
